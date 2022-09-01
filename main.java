@@ -1,12 +1,21 @@
 package com.bridgelabs;
 
-public class main {
-    public static void main(String[] args) {
-        System.out.println("Welcome to Data Structure and Algorithm program for Adding the Data ");
+import java.util.LinkedList;
 
-        LinkedList list1 = new LinkedList();
-        list1.push(56);
-        list1.push(30);
-        list1.push(70);
+public class main {
+    public static void addData(){
+        LinkedList list = new LinkedList();
+        list.push(70);
+        list.push(30);
+        list.push(56);
+        list.print();
+    }
+    public static void appendData(){
+        LinkedList list = new LinkedList();
+        list.append(56);
+        list.append(30);
+        list.append(70);
+        list.print();
+
     }
 }
